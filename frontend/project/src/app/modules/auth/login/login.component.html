@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="form-sections">
+        <h1 class="title">
+            Welcome! Please login or register below!
+        </h1>
+        <form [formGroup]="loginForm" class="form">
+
+            <mat-form-field appearance="outline">
+                <mat-label>Username</mat-label>
+                <input matInput placeholder="Username" formControlName="username" />
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Password</mat-label>
+                <input matInput placeholder="Password" type="password" formControlName="password" />
+            </mat-form-field>
+
+        </form>
+        <div class="buttons">
+        <button mat-raised-button (click)="login()" class="login">Login</button>
+        <button mat-raised-button (click)="register()" class="register">Register</button>
+        </div>
+    </div>
+
+    <div class="message-section">
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<div class="container">
+    <h1 class="title">
+        Add Artist
+    </h1>
+
+    <form [formGroup]="artistForm" class="form">
+        <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Name" formControlName="name" />
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Year of birth</mat-label>
+            <input matInput placeholder="Year of birth" formControlName="yearOfBirth" />
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Manager</mat-label>
+            <input matInput placeholder="Manager" formControlName="managerName" />
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="addArtist()" appHoverBtn>   
+        Save
+    </button>
+</div>

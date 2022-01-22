@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background-color: seagreen;
+}
+
+.add-button {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: lightgray;
+    margin-bottom: 30px;
+}
+
+.table {
+    width: 40%;
+}
+
+.loggedin {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}

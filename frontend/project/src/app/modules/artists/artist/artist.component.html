@@ -1,0 +1,19 @@
+<div class="container">
+    <h1 class="title">
+        {{'Artist Details'}}
+    </h1>
+    <mat-card class="card">
+        <p class="details">
+        {{'Name' | marks}} {{artist.name}}
+        </p>
+        <p class="details">
+        {{'Year of birth' | marks}} {{artist.yearOfBirth}}
+        </p>
+        <p class="details">
+        {{'Manager' | marks}} {{artist.manager}}
+        </p>
+    </mat-card>
+    <button mat-raised-button (click)="goToArtists()" class="add-button">
+        Go back to artists
+      </button>
+</div>
