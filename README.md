@@ -1,5 +1,5 @@
-Project for the Web Development course (2nd year, FMI Unibuc)
+# Music Web App - ASP.NET CORE, C#, Angular, HTML, CSS
 
-Backend: ASP.NET 5.0
-
-Frontend: Angular
+- Developed Backend using ASP.NET CORE, C#, REST, CRUD methods.
+- Implemented authentication and endpoint authorization, repository pattern, unit of work.
+- Designed Frontend using Angular, HTML, CSS: components, services, reactive forms.
